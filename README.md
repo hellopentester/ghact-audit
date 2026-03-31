@@ -109,7 +109,7 @@ python3 audit_workflows.py \
   --versions "1.14.1,0.30.4" \
   --window-start 08:00 \
   --window-end 12:30 \
-  --incident "SIRT-1234" \
+  --incident "SECOPS-1234" \
   --output audit_report.json \
   --detail-json audit_report_detail.json \
   --pdf audit_report_summary.pdf \
