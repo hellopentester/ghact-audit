@@ -2,7 +2,7 @@
 """
 GitHub Actions Workflow Security Audit Script
 ==============================================
-Incident: SIRT-4337
+Incident: SECOPS-1234
 
 Checks within the time window 8:00 AM – 12:30 PM SGT (00:00 – 04:30 UTC):
   1. Workflow runs that have NO cache hit  (no `actions/cache` step found in any job)
@@ -62,7 +62,7 @@ logging.basicConfig(
     format="%(asctime)s  %(levelname)-8s  %(message)s",
     datefmt="%Y-%m-%dT%H:%M:%S",
 )
-log = logging.getLogger("sirt-4337")
+log = logging.getLogger("secops-1234")
 
 
 # ---------------------------------------------------------------------------
@@ -795,7 +795,7 @@ def parse_args():
     )
     p.add_argument(
         "--incident", default="",
-        help="Optional incident reference label shown in reports (e.g. SIRT-1234).",
+        help="Optional incident reference label shown in reports (e.g. SECOPS-1234).",
     )
     p.add_argument(
         "--output", default="audit_report.json",
