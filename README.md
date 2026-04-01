@@ -183,9 +183,9 @@ The script prints real-time progress as it runs:
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║         GitHub Actions Axios Supply Chain Audit — Live Scan         ║
+║         GitHub Actions Supply Chain Audit — Live Scan         ║
 ╚══════════════════════════════════════════════════════════════════════╝
-  Incident ref : SIRT-1234
+  Incident ref : SECOPS-1234
   Audit window : 2026-03-31 08:00 SGT  →  2026-03-31 12:30 SGT
   Orgs         : my-org
 
